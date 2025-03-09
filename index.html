@@ -116,7 +116,7 @@
                 scriptProcessor.connect(audioContext.destination);
 
                 let silenceTimeout = null;
-                const SILENCE_DELAY = 4000;
+                const SILENCE_DELAY = 1500;
                 const THRESHOLD = 0.05;
 
                 scriptProcessor.onaudioprocess = function(event) {
